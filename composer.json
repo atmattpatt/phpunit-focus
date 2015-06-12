@@ -1,0 +1,22 @@
+{
+    "name": "mattpatt/phpunit-focus",
+    "description": "Easily run individual tests",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Patterson",
+            "email": "matthew.s.patterson@gmail.com"
+        }
+    ],
+    "require": {
+      "phpunit/php-token-stream": "1.4.2"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "4.7.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Mattpatt\\PHPUnitFocus\\": "src/MattPatt/PHPUnitFocus"
+      }
+    }
+}

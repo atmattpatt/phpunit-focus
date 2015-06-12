@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+// vim: set ft=php
+
+namespace Mattpatt\PHPUnitFocus;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$cli = new CLI($argv);
+$cli->run();
